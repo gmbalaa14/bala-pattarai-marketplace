@@ -1,0 +1,17 @@
+{
+  "name": "bala-pattarai",
+  "description": "Bala's Pattarai marketplace: hand-forged developer skills for Claude Code and other coding agents.",
+  "owner": { "name": "Balagurunathan Marimuthu" },
+  "plugins": [
+    {
+      "name": "thiran",
+      "description": "Developer workflow skills: plan features, write conventional commits, rebase safely, and triage and judge PR review comments.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gmbalaa14/thiran-pattarai.git",
+        "path": "plugins/thiran",
+        "ref": "main"
+      }
+    }
+  ]
+}
